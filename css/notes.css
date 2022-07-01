@@ -2,7 +2,32 @@ body{
     background-color: rgb(58, 57, 57);
     color: white
 }
+#note{
+    text-align: center;
+}
+hr{
+    margin: 0px 2rem;
+    background-color: rgb(83, 82, 82);
+}
 .texts{
-    background-color: rgb(163, 156, 156);
-    border: 1px solid rgb(163, 156, 156);
+    background-color: rgb(85, 84, 84);
+    border: 1px solid rgb(53, 53, 53);
+    padding: 1rem;
+    margin: 1rem 4rem;
+    border-radius: 15px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 40, 40);
+    padding-top: 1rem;
+}
+#note{
+    margin-left: 4rem;
+}
+#todo{
+    padding-right: 4rem;
+}
+.last img{
+    width: 20px;
 }

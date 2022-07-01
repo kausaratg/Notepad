@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+input, textarea{
+    background-color: rgb(39, 39, 39) !important;
+    color: white !important;
+    border: 1px solid rgb(39, 39, 39) !important;
+}
+input:hover, textarea:hover{
+    box-shadow: none !important;
+    border: 1px solid rgb(39, 39, 39) !important;
+}
+#note{
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 40, 40);
+    padding-top: 1rem;
+}
+#note{
+    margin-left: 4rem;
+    text-align: center;
+}
+#todo{
+    padding-right: 4rem;
+    color: white;
+    text-align: center;
+}
+.last img{
+    width: 20px;
+}
